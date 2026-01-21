@@ -53,7 +53,7 @@ cd chomper;
 # pyenv install 3.6.4
 
 # Install pipenv and virtual environment
-sudo -H pip install -U pipenv # Install pipenv
+# sudo -H pip install -U pipenv # Install pipenv
 pipenv install --dev --python 3.6.4 # Install packages
 
 # Install certificates
