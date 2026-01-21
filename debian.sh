@@ -38,7 +38,7 @@ then
 else
   echo -e "\nChomper is already on PATH.\n"
 fi
-
+cd chomper;
 # Install pyenv
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
