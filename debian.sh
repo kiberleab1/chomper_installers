@@ -40,17 +40,17 @@ else
 fi
 cd chomper;
 # Install pyenv
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo  -e '\nif command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
-echo  -e '\nif command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
-source ~/.bashrc
-source ~/.bash_profile
-exec $SHELL -l
-pyenv install 3.6.4
+# git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+# echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+# echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+# echo  -e '\nif command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+# echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+# echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+# echo  -e '\nif command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
+# source ~/.bashrc
+# source ~/.bash_profile
+# exec $SHELL -l
+# pyenv install 3.6.4
 
 # Install pipenv and virtual environment
 sudo -H pip install -U pipenv # Install pipenv
