@@ -54,7 +54,7 @@ cd chomper;
 
 # Install pipenv and virtual environment
 # sudo -H pip install -U pipenv # Install pipenv
-pipenv install --dev --python 3.6.4 # Install packages
+pip install --user --python 3.6.4 # Install packages
 
 # Install certificates
 screen -d -m pipenv run mitmdump
